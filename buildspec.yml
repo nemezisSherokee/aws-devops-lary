@@ -28,5 +28,5 @@ phases:
       - du
 artifacts:
   files:
-    - './build/distributions/*.jar'
+    - './build/distributions/*.zip'
   discard-paths: no
