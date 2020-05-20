@@ -5,7 +5,7 @@ phases:
   install:
     run-as: root
     commands:
-      - echo This is a installation
+      - echo This is a installations
       - wget https://services.gradle.org/distributions/gradle-4.6-all.zip
       - unzip -d /opt/gradle gradle-4.6-all.zip
   pre_build:
