@@ -16,10 +16,12 @@ phases:
       - echo Starting build `date`
       - echo Current directory is `pwd`
       - whereis gradle
+      - whereis java
+      - whereis javac
       - which gradle
-      - /opt/gradle/gradle-4.6/bin/gradle -version
-      - /opt/gradle/gradle-4.6/bin/gradle clean
-      - /opt/gradle/gradle-4.6/bin/gradle build
+      - gradle -version
+      - gradle clean
+      - gradle build
   post_build:
     commands:
       - echo Build must be completed
