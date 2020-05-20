@@ -21,7 +21,7 @@ phases:
       - which gradle
       - gradle -version
       - gradle clean
-      - gradle build
+      - ./gradlew build
   post_build:
     commands:
       - echo Build must be completed
